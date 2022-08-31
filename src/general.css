@@ -1,0 +1,42 @@
+.header {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+
+    padding: 1%;
+}
+
+.icon {
+    color: yellow;
+    flex-direction: row;
+    float: left;
+    justify-content: flex-start;
+}
+
+.signIn {
+    float: right;
+    padding: 2px 25px;
+    border: 1px solid yellow;
+    color: yellow;
+    border-radius: 20px;
+    justify-content: flex-end;
+    height: 5%;
+}
+
+.body {
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px
+}
+
+.imageStyle {
+    padding: 0.5%;
+}
+
+.download {
+    padding: 10px 30px;
+    background-color: yellow;
+}
