@@ -32,11 +32,11 @@ class Movie extends React.Component {
         return (
             <div style={{ backgroundColor: "black", width: "100%", height: "100%" }}>
                 <div className="header">
-                    <div className='icon'>
+                    <div className='icon' style={{float: "left"}}>
                         <FontAwesomeIcon icon={faCameraRetro} color="yellow" />
                         <p className='movie'>Movie</p>
                     </div>
-                    <div className='signIn'>
+                    <div className='signIn' style={{float: "right"}}>
                         <p>Sign In</p>
                     </div>
                 </div>
