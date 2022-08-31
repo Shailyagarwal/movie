@@ -34,7 +34,7 @@ class Movie extends React.Component {
                 <div className="header">
                     <div className='icon' style={{float: "left"}}>
                         <FontAwesomeIcon icon={faCameraRetro} color="yellow" />
-                        <p className='movie'>Movie</p>
+                        <p className='movie' style={{float: "right"}}>Movie</p>
                     </div>
                     <div className='signIn' style={{float: "right"}}>
                         <p>Sign In</p>
